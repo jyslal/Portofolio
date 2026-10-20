@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKAKPO Like Axel — Aspirant Administrateur Système Orienté Sécurité — Recherche Stage | Lomé</title>
+<meta name="description" content="Étudiant en Licence 3 Cybersécurité à l'UCAO-UUT, Lomé. Aspirant Administrateur Système orienté Sécurité, recherche stage. Linux avancé, Wazuh, Centreon, PyNetScan (TCP 1023 ports en 0.02s). Projet mémoire: Durcissement système.">
+<link rel="canonical" href="https://jyslal.github.io/">
+<meta property="og:title" content="AKAKPO Like Axel — Admin Système Orienté Sécurité — Recherche Stage">
+<meta property="og:description" content="Licence 3 Cybersécurité UCAO-UUT, Stagiaire ORABANK, PyNetScan, Wazuh, Centreon, LinuxJourney Grasshopper 8 modules, Root-Me 15+, Bandit L14.">
+<meta property="og:url" content="https://jyslal.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AKAKPO Like Axel — Portfolio">
+<meta name="twitter:description" content="Aspirant Admin Sys Sécurité — Recherche Stage — Lomé — Durcissement système">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "AKAKPO Like Axel",
+  "jobTitle": "Aspirant Administrateur Système Orienté Sécurité — Recherche Stage",
+  "affiliation": {"@type": "CollegeOrUniversity", "name": "UCAO-UUT"},
+  "address": {"@type": "PostalAddress", "addressLocality": "Lomé", "addressCountry": "TG"},
+  "url": "https://jyslal.github.io/",
+  "sameAs": ["https://github.com/jyslal", "https://www.linkedin.com/in/like-axel-akakpo-238b47381"],
+  "knowsAbout": ["Linux", "Wazuh", "Centreon", "Python", "Nmap", "Wireshark", "Sécurité SI"]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<div class="dot-grid" aria-hidden="true"></div>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo"><span class="logo-box">AL.</span><span class="logo-text">AKAKPO</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">À propos</a>
+      <a href="#experience">Expérience</a>
+      <a href="#competences">Compétences</a>
+      <a href="#formation">Formation</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact" class="btn-small">Me contacter</a>
+    </div>
+    <div class="nav-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Changer de thème">🌙</button>
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <div class="badge reveal"><span class="dot-live"></span> ASPIRANT ADMIN SYS ORIENTÉ SÉCURITÉ — RECHERCHE STAGE — Lomé</div>
+      <h1 class="reveal d1">AKAKPO<br><span class="accent">Like Axel</span></h1>
+      <h2 class="reveal d2">Aspirant Administrateur Système<br>Orienté Sécurité</h2>
+      <p class="lead reveal d3">Étudiant en <strong>Licence 3 Cybersécurité à l'UCAO-UUT</strong>, passionné par l'administration Linux et la sécurité des SI. Rigoureux, discipliné et attentif aux détails, je cherche une équipe pour mettre en pratique mes connaissances sur le <strong>durcissement des systèmes (projet de mémoire visé)</strong> et contribuer à la supervision, au SIEM et à l'audit réseau.</p>
+      <div class="metrics reveal d3">
+        <div class="metric"><strong>0.02s</strong><span>TCP 1023 ports localhost</span></div>
+        <div class="metric"><strong>58.24s</strong><span>SYN verbeux 1023 ports</span></div>
+        <div class="metric"><strong>15+</strong><span>Root-Me résolus</span></div>
+        <div class="metric"><strong>L14</strong><span>Bandit atteint</span></div>
+      </div>
+      <div class="cta reveal d4">
+        <a href="#projets" class="btn primary">Voir mes projets →</a>
+        <a href="https://github.com/jyslal" target="_blank" rel="noopener" class="btn ghost">GitHub</a>
+        <a href="https://www.linkedin.com/in/like-axel-akakpo-238b47381" target="_blank" rel="noopener" class="btn ghost">LinkedIn</a>
+        <a href="CV.pdf" download="CV-AKAKPO-Like-Axel.pdf" class="btn ghost" id="downloadCvBtn">📄 Télécharger CV</a>
+      </div>
+    </div>
+    <div class="hero-card reveal d3">
+      <div class="code-card">
+        <div class="code-head"><span class="c r"></span><span class="c y"></span><span class="c g"></span><span class="code-title">ORABANK Stage • PyNetScan.py</span></div>
+<pre><code><span class="cmt"># Audit interne env. bancaire - ORABANK</span>
+<span class="k">def</span> <span class="fn">audit_interne</span>():
+  <span class="cmt"># Discovery + ports + services</span>
+  scan = PyNetScan(
+    discovery=<span class="k">True</span>,
+    ports=<span class="num">1023</span>,
+    detection=<span class="str">"OS + services"</span>
+  )
+  <span class="cmt"># TCP 1023 → 0.02s localhost</span>
+  <span class="cmt"># SYN verbeux → 58.24s</span>
+  <span class="k">return</span> export_rapport()</code></pre>
+        <div class="code-foot"><span>Stage 04 Août - 03 Sept 2025</span><span class="live">● ORABANK</span></div>
+      </div>
+      <div class="float-note">Environnement bancaire • Exigences sécurité & disponibilité</div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">À propos</span><h3>De l'admin solide<br>à la sécurité utile.</h3></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Je m'appelle <strong>AKAKPO Like Axel</strong>, étudiant en <strong>Licence 3 Cybersécurité à l'UCAO-UUT (2023-2026)</strong>, Lomé. Mon focus : <strong>Linux avancé, supervision, SIEM et audit réseau</strong>.</p>
+        <p>Mon projet de mémoire porte sur le <strong>durcissement des systèmes</strong>. Je cherche une équipe où je peux contribuer sur des missions concrètes : gestion utilisateurs/permissions, processus/packages, analyse trafic, supervision Centreon, SIEM Wazuh.</p>
+        <div class="about-pills"><span>Rigueur & discipline</span><span>Organisation</span><span>Attention aux détails</span><span>Curiosité / Autonomie</span></div>
+      </div>
+      <div class="about-stats reveal d1">
+        <div class="stat"><strong>UCAO-UUT</strong><p>Licence 3 Cybersécurité 2023-2026 en cours — Université Catholique de l'Afrique de l'Ouest</p></div>
+        <div class="stat"><strong>ORABANK</strong><p>Stagiaire IT/Sécurité 1 mois — Env. bancaire — PyNetScan + Nmap/Wireshark</p></div>
+        <div class="stat"><strong>OPEN TO TEAM</strong><p>Projet mémoire: Durcissement système — Recherche Stage</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section alt">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Expérience Professionnelle</span><h3>Terrain bancaire,<br>exigence réelle.</h3></div>
+    <div class="exp-card reveal">
+      <div class="exp-head">
+        <div><h4>Stagiaire IT / Sécurité — ORABANK</h4><span class="exp-meta">Lomé • 04 Août - 03 Sept 2025 (1 mois) • Environnement bancaire avec exigences de sécurité et de disponibilité.</span></div>
+        <span class="badge-stage">STAGE</span>
+      </div>
+      <ul class="check-list">
+        <li>Développement de <strong>PyNetScan</strong>: scanner réseau en Python pour audit interne (discovery, scan de ports, détection de services)</li>
+        <li>Compréhension avancée des commandes courantes de <strong>Nmap, Wireshark</strong> pour analyse</li>
+        <li>Présentation des résultats</li>
+        <li>Projet open-source: <a href="https://github.com/jyslal/PyNetScan" target="_blank" rel="noopener">github.com/jyslal/PyNetScan</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="competences" class="section">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Compétences — CV Final</span><h3>Exactement ce que je maîtrise.</h3></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal"><h4>Systèmes</h4><div class="pills"><span>Linux (avancé)</span><span>Windows (base)</span><span>Gestion utilisateurs / permissions</span><span>Processus / Packages</span></div></div>
+      <div class="skill-card reveal d1"><h4>Réseau</h4><div class="pills"><span>TCP/IP</span><span>Nmap</span><span>Wireshark</span><span>Hydra</span><span>Analyse trafic réseau</span></div></div>
+      <div class="skill-card reveal d2"><h4>Sécurité</h4><div class="pills"><span>Wazuh (SIEM)</span><span>Centreon (supervision)</span><span>Scan & audit réseau</span><span>Root-Me 15+ / Bandit L14</span></div></div>
+      <div class="skill-card reveal d3"><h4>Dev & Scripting</h4><div class="pills"><span>Python (PyNetScan)</span><span>C</span><span>Docker</span><span>Java Notions débutant</span><span>PHP Notions</span><span>HTML/CSS/JS Notions</span><span>Git</span></div></div>
+      <div class="skill-card reveal"><h4>Bureautique</h4><div class="pills"><span>OnlyOffice / MS 365</span><span>Rédaction rapports tech</span></div></div>
+      <div class="skill-card reveal d1"><h4>Langues & Atouts</h4><div class="pills"><span>Français Natif</span><span>Anglais B1 Intermédiaire</span><span>Rigueur & discipline</span><span>Organisation</span><span>Attention aux détails</span><span>Curiosité / Autonomie</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="formation" class="section alt">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Formation & Certifications</span><h3>Académique + terrain.</h3></div>
+    <div class="formation-grid">
+      <div class="formation-card reveal">
+        <span class="f-badge">EN COURS</span>
+        <h4>Licence 3 Cybersécurité — UCAO-UUT</h4>
+        <span class="f-meta">Lomé • 2023 - 2026 (en cours) — Université Catholique de l'Afrique de l'Ouest - Unité Universitaire Technologique</span>
+        <p><strong>Projets académiques:</strong> Déploiement Centreon (supervision), Wazuh (SIEM), Conteneurisation Docker</p>
+        <p><strong>Bases académiques:</strong> Java, notions débutant en PHP, HTML/CSS/JS</p>
+      </div>
+      <div class="cert-card reveal d1">
+        <span class="f-badge valid">VALIDÉ</span>
+        <h4>LinuxJourney Grasshopper — 8 modules validés</h4>
+        <p>Démarrage, Ligne de commande, Text-Fu, Gestion utilisateurs, Permissions, Processus, Packages</p>
+        <div class="pills small"><span>Démarrage</span><span>CLI</span><span>Text-Fu</span><span>Users</span><span>Perms</span><span>Process</span><span>Packages</span></div>
+        <a href="https://labex.io/fr/linuxjourney" target="_blank" rel="noopener" class="link">labex.io/fr/linuxjourney →</a>
+      </div>
+    </div>
+    <div class="challenges-grid reveal">
+      <div class="challenge-card"><h5>Root-Me</h5><p><strong>15+ challenges résolus</strong> (Web Client, Réseau, Linux) — Plateforme de challenges</p></div>
+      <div class="challenge-card"><h5>OverTheWire Bandit</h5><p><strong>Niveau 14 atteint</strong> — automatisation bash, permissions Linux — <span class="pills small"><span>Bash</span><span>Linux perms</span></span></p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projets" class="section">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow">Projets & Challenges</span><h3>Code + preuves.</h3></div>
+    <div class="project-featured reveal">
+      <div class="pf-left">
+        <div class="pf-badge">OPEN SOURCE • 2025 • STAGE ORABANK</div>
+        <h4>PyNetScan — Scanner réseau Python</h4>
+        <p>Outil CLI pour <strong>cartographie réseau, détection OS et services, export rapport</strong>. Pensé pour audit interne rapide. Développé pendant stage ORABANK en environnement bancaire.</p>
+        <p class="perf"><strong>Perf mesurée localhost:</strong> TCP 1023 ports → 0.02s | SYN verbeux 1023 ports → 58.24s | UDP plus long par nature.</p>
+        <ul class="check-list"><li>Discovery, scan de ports, détection de services</li><li>Analyse Nmap/Wireshark avancée</li><li>Présentation résultats + rapport tech</li><li>Export rapport</li></ul>
+        <div class="pf-links"><a href="https://github.com/jyslal/PyNetScan" target="_blank" rel="noopener" class="btn primary small">Voir sur GitHub →</a><span class="mono">python • cli • audit interne</span></div>
+      </div>
+      <div class="pf-right">
+        <div class="terminal"><div class="term-head">axel@lome:~/ORABANK$ python pynetscan.py 192.168.1.0/24</div><div class="term-body">[+] Discovery... 12 hosts UP<br>[+] TCP 22 OPEN — SSH<br>[+] TCP 80 OPEN — http<br>[+] OS Detection: Linux 5.x<br>[+] Services: ssh, http, snmp<br><span class="success">[✓] Rapport exporté • 0.02s TCP / 58.24s SYN</span></div></div>
+      </div>
+    </div>
+    <div class="projects-grid">
+      <a href="https://labex.io/fr/linuxjourney" target="_blank" rel="noopener" class="project-card reveal"><h5>LinuxJourney — Grasshopper</h5><p>8 modules validés : Démarrage, CLI, Text-Fu, Users, Perms, Process, Packages.</p><div class="pills small"><span>Linux avancé</span><span>Validé</span></div><span class="link">labex.io/fr/linuxjourney →</span></a>
+      <a href="https://github.com/jyslal/reconnaissance_script" target="_blank" rel="noopener" class="project-card reveal d1"><h5>reconnaissance_script</h5><p>Automatisation phase info gathering.</p><div class="pills small"><span>Python</span><span>Recon</span></div><span class="link">github.com/jyslal/reconnaissance_script →</span></a>
+      <a href="https://github.com/jyslal/scanner_de_port" target="_blank" rel="noopener" class="project-card reveal d2"><h5>scanner_de_port</h5><p>Base pédagogique de PyNetScan, TCP simple.</p><div class="pills small"><span>Python</span><span>TCP</span></div><span class="link">github.com/jyslal/scanner_de_port →</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section alt contact-section">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div>
+        <h3>Construisons un système<br>solide ensemble.</h3>
+        <p>OPEN TO TEAM — Projet mémoire: Durcissement système. Disponible pour stage IT/Sécurité. Basé à Lomé, environnement bancaire déjà pratiqué (ORABANK).</p>
+        <div class="open-to"><span class="dot-live"></span> Recherche Stage • Admin Sys Orienté Sécurité</div>
+      </div>
+      <div class="contact-actions">
+        <div class="email-row"><span id="emailText">Chargement...</span><button id="copyBtn" class="btn small">Copier</button></div>
+        <a id="mailLink" href="#" class="btn primary">M'envoyer un mail</a>
+        <a href="CV.pdf" download="CV-AKAKPO-Like-Axel.pdf" class="btn ghost" style="width:100%;margin-top:8px">📄 Télécharger mon CV (PDF)</a>
+        <div class="socials"><a href="https://github.com/jyslal" target="_blank" rel="noopener">GitHub jyslal</a><a href="https://www.linkedin.com/in/like-axel-akakpo-238b47381" target="_blank" rel="noopener">LinkedIn</a><span id="phoneText">jyslal.github.io</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container foot-inner"><span>© 2026 AKAKPO Like Axel — Admin Sys. Sécurité — Projet mémoire: Durcissement système • OPEN TO TEAM • UCAO-UUT Lomé</span><span class="mono">Vanilla HTML • CSS • JS — jyslal.github.io</span></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite">Email copié !</div>
+<script src="./script.js"></script>
+</body>
+</html>
